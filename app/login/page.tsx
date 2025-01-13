@@ -45,7 +45,7 @@ export default async function Login() {
                   name="email"
                   type="email"
                   required
-                  placeholder="hello@hello.com"
+                  placeholder="Email"
                 />
               </div>
               <SubmitButton text="Login" />
