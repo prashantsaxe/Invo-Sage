@@ -115,7 +115,7 @@ export function CreateInvoice({
             <div>
               <Label>Currency</Label>
               <Select
-                defaultValue="USD"
+                defaultValue="INR"
                 name={fields.currency.name}
                 key={fields.currency.key}
                 onValueChange={(value) => setCurrency(value)}
@@ -124,6 +124,9 @@ export function CreateInvoice({
                   <SelectValue placeholder="Select Currency" />
                 </SelectTrigger>
                 <SelectContent>
+                  <SelectItem value="INR">
+                    Indian Rupee -- INR
+                  </SelectItem>
                   <SelectItem value="USD">
                     United States Dollar -- USD
                   </SelectItem>
@@ -214,12 +217,13 @@ export function CreateInvoice({
                     <CalendarIcon />
 
                     {selectedDate ? (
-                      new Intl.DateTimeFormat("en-US", {
+                      new Intl.DateTimeFormat("en-IN", {
                         dateStyle: "long",
                       }).format(selectedDate)
                     ) : (
                       <span>Pick a Date</span>
                     )}
+
                   </Button>
                 </PopoverTrigger>
                 <PopoverContent>
