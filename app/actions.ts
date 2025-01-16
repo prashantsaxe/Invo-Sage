@@ -74,8 +74,8 @@ export async function createInvoice(prevState: any, formData: FormData) {
 
   emailClient.send({
     from: sender,
-    to: [{ email: "jan@alenix.de" }],
-    template_uuid: "3c01e4ee-a9ed-4cb6-bbf7-e57c2ced6c94",
+    to: [{ email: "prasxhunter@gmail.com" }],
+    template_uuid: "a01ef011-2986-4b7f-b9de-41ee20d2fb05",
     template_variables: {
       clientName: submission.value.clientName,
       invoiceNumber: submission.value.invoiceNumber,
@@ -89,7 +89,7 @@ export async function createInvoice(prevState: any, formData: FormData) {
       invoiceLink:
         process.env.NODE_ENV !== "production"
           ? `http://localhost:3000/api/invoice/${data.id}`
-          : `https://invoice-marshal.vercel.app/api/invoice/${data.id}`,
+          : `https://invo-sage.vercel.app/api/invoice/${data.id}`,
     },
   });
 

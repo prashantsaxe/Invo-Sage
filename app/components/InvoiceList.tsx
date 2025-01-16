@@ -73,7 +73,7 @@ export async function InvoiceList() {
                   <Badge>{invoice.status}</Badge>
                 </TableCell>
                 <TableCell>
-                  {new Intl.DateTimeFormat("en-US", {
+                  {new Intl.DateTimeFormat("en-IN", {
                     dateStyle: "medium",
                   }).format(invoice.createdAt)}
                 </TableCell>
