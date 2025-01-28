@@ -69,7 +69,7 @@ export async function createInvoice(prevState: any, formData: FormData) {
 
   const sender = {
     email: "hello@demomailtrap.com",
-    name: "Jan Marshal",
+    name: "Prashant Saxena",
   };
 
   emailClient.send({
