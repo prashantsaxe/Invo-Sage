@@ -1,3 +1,8 @@
+Testing Email : tempmailhoon@gmail.com
+password : test@123#
+Check the Spam folder for invoice as i have used a free service from mailgun
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
