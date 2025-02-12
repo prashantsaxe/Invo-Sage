@@ -70,7 +70,7 @@ export async function GET(
   pdf.setFontSize(10);
   pdf.text(`Invoice Number: #${data.invoiceNumber}`, 120, 40);
   pdf.text(
-    `Date: ${new Intl.DateTimeFormat("en-US", {
+    `Date: ${new Intl.DateTimeFormat("en-IN", {
       dateStyle: "long",
     }).format(data.date)}`,
     120,

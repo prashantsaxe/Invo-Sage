@@ -209,7 +209,7 @@ export function EditInvoice({ data }: iAppProps) {
                     <CalendarIcon />
 
                     {selectedDate ? (
-                      new Intl.DateTimeFormat("en-US", {
+                      new Intl.DateTimeFormat("en-IN", {
                         dateStyle: "long",
                       }).format(selectedDate)
                     ) : (

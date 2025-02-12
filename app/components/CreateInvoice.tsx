@@ -28,6 +28,7 @@ import { useForm } from "@conform-to/react";
 import { parseWithZod } from "@conform-to/zod";
 import { invoiceSchema } from "../utils/zodSchemas";
 import { formatCurrency } from "../utils/formatCurrency";
+import { useEffect } from "react"; 
 
 interface iAppProps {
   firstName: string;
@@ -62,6 +63,9 @@ export function CreateInvoice({
   const [currency, setCurrency] = useState("USD");
 
   const calcualteTotal = (Number(quantity) || 0) * (Number(rate) || 0);
+  useEffect(() => {
+    console.log("Selected Date Updated:", selectedDate);
+  }, [selectedDate]);
 
   return (
     <Card className="w-full max-w-4xl mx-auto">
