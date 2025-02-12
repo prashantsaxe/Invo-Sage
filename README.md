@@ -142,9 +142,7 @@ This project is licensed under the **MIT License**.
 ## 📞 Contact
 - GitHub: [prashantsaxe](https://github.com/prashantsaxe)
 - Email: prasxhunter@gmail.com
-
-🚀 **Built with ❤️ by Prashant Saxena & inspired by Jan Marshall**
-
+  
 ---
 ## Send Invoice
    ![Send invoice](https://github.com/prashantsaxe/Images/blob/main/Screenshot%202025-02-12%20225903.png)
@@ -164,3 +162,4 @@ This project is licensed under the **MIT License**.
 ## ⚠️ Disclaimer
 **Using this project to send invoices to personal accounts will require users to contact me via email, as Mailtrap’s free plan does not allow multiple recipients.**
 
+🚀 **Built with ❤️ by Prashant Saxena & inspired by Jan Marshall**
