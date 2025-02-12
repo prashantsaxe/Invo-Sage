@@ -141,9 +141,9 @@ This project is licensed under the **MIT License**.
 
 ## 📞 Contact
 - GitHub: [prashantsaxe](https://github.com/prashantsaxe)
-- Email: support@invo-sage.com
+- Email: prasxhunter@gmail.com
 
-🚀 **Built with ❤️ by Prashant Saxena & Contributors**
+🚀 **Built with ❤️ by Prashant Saxena & inspired by Jan Marshall**
 
 ---
 
